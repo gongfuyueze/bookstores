@@ -1,0 +1,13 @@
+<div id="num1" value="1"></div>
+<script>
+var i=2*60*60*1000-1;
+setInterval("showTime()",1000);
+function showTime(){
+i=i-1000;
+var h=i/1000/60/60;
+var m=i/1000/60;
+var ms=i/1000;
+
+document.write(h+"<br />")
+}
+</script>
